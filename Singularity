@@ -1,5 +1,10 @@
-Bootstrap: library
+Bootstrap: docker
 From: debian:9
+
+%labels
+    Maintainer Belcour A.
+    Version v0.1.6
+    Description PathModel Singularity recipe
 
 %environment
     export PATH=/opt/conda/bin:${PATH}
