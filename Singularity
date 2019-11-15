@@ -3,7 +3,7 @@ From: debian:9
 
 %labels
     Maintainer Belcour A.
-    Version v0.1.7
+    Version v0.1.8
     Description PathModel Singularity recipe
 
 %environment
