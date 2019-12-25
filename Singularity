@@ -30,5 +30,5 @@ From: debian:9
 	conda install -c rdkit rdkit ;\
     conda install -c anaconda pygraphviz ;\
     conda install -c potassco clingo ;\
-	pip install pathmodel
+	pip install pathmodel==0.1.9
 
